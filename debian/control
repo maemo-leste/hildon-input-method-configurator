@@ -1,0 +1,17 @@
+Source: hildon-input-method-configurator
+Section: x11
+Priority: optional
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               autoconf,
+               automake,
+               libtool-bin,
+               libglib2.0-dev
+Standards-Version: 3.7.2
+
+Package: hildon-input-method-configurator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, sudo
+Description: Hildon Input method configurator
+ This package provides Hildon Input Method configurator.

@@ -1,0 +1,230 @@
+hildon-input-method-configurator (0.1.8-2) unstable; urgency=low
+
+  * First RE release
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Tue, 26 Jun 2018 20:51:23 +0300
+
+hildon-input-method-configurator (0.1.8-1+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    Suffix +0m5 added to package revision
+
+ -- Kojo Aapo <aapo.kojo@nokia.com>  Thu, 12 Nov 2009 12:38:37 +0200
+
+hildon-input-method-configurator (0.1.8-1) unstable; urgency=low
+
+  * Version 0.1.8-1
+  * Fixes: NB#145838 Support for Swiss PP-bit missing
+
+ -- Joaquim Rocha <jrocha@maemo.org>  Tue, 10 Nov 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.7-1) unstable; urgency=low
+
+  * Version 0.1.7-1
+  * Added: add keys for the default plugins and removed deprecated keys.
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Thu, 11 Jun 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.6-1) unstable; urgency=low
+
+  * Version 0.1.6-1
+  * hildon-input-method-configurator.xsession uses fakeroot in scratchbox
+  * Updated: Sync hardware keyboard name with sysinfo output
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Tue, 31 Mar 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.5-1) unstable; urgency=low
+
+  * Version 0.1.5-1
+  * Define hildon-input-method-configurator.xsession
+  * Use /etc/hildon-input-method.configured to mark that it has been configured
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Tue, 31 Mar 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.4-1) unstable; urgency=low
+
+  * Version 0.1.4-1
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Thu, 26 Mar 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.3-1) unstable; urgency=low
+
+  * Version 0.1.3-1
+  * Fixes: NB#102871.
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Fri, 27 Feb 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.2-1) unstable; urgency=low
+
+  * Version 0.1.2-1
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Thu, 19 Feb 2009 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.1-1) unstable; urgency=low
+
+  * Version 0.1.1-1
+  * Fixes: NB#90017.
+
+ -- Felipe Erias Morandeira <femorandeira@maemo.org>  Thu, 16 Oct 2008 12:00:00 +0200
+
+hildon-input-method-configurator (0.1.0-1) unstable; urgency=low
+
+  * bump up version for Fremantle
+  * Update: Support for RX51
+  * Update: handle internal keyboard model in configurator schema
+
+ -- Richard Sun <risun@maemo.org>  Fri,  5 Sep 2008 16:29:12 +0300
+
+hildon-input-method-configurator (0.0.19-1) unstable; urgency=low
+
+  * Fixes: NB#85987 
+
+ -- mdamt <mdamt@maemo.org>  Fri, 30 May 2008 15:27:16 +0300
+
+hildon-input-method-configurator (0.0.18-3) unstable; urgency=low
+
+  * Added a forgotten file. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon, 03 Mar 2008 16:12:58 +0200
+
+hildon-input-method-configurator (0.0.18-2) unstable; urgency=low
+
+  * Added libexpat1-dev as build-dependency. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon, 03 Mar 2008 15:49:24 +0200
+
+hildon-input-method-configurator (0.0.18-1) unstable; urgency=low
+
+  * Fixes: NB#81345, NB#80409
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon, 03 Mar 2008 12:42:21 +0200
+
+hildon-input-method-configurator (0.0.17-1) unstable; urgency=low
+
+  * Support for RX-48. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 24 Oct 2007 15:49:52 +0300
+
+hildon-input-method-configurator (0.0.16-1) unstable; urgency=low
+
+  * Fixes: NB#72676
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 10 Oct 2007 15:08:43 +0300
+
+hildon-input-method-configurator (0.0.15-1) unstable; urgency=low
+
+  * Fixes: NB#64975 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon, 24 Sep 2007 16:37:46 +0300
+
+hildon-input-method-configurator (0.0.14-1) unstable; urgency=low
+
+  * Fixes: NB#66800
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Fri, 31 Aug 2007 15:35:29 +0300
+
+hildon-input-method-configurator (0.0.13-2) unstable; urgency=low
+
+  * Really use update-sudoers now. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon, 20 Aug 2007 09:37:14 +0300
+
+hildon-input-method-configurator (0.0.13-1) unstable; urgency=low
+
+  * Fixes: NB#65440, NB#65609, NB#64975. 
+
+ -- Mohammad Anwari <Mohammad.Anwari@nokia.com>  Tue, 14 Aug 2007 15:58:18 +0300
+
+hildon-input-method-configurator (0.0.12-1) unstable; urgency=low
+
+  * New release.
+
+ -- Tomas Junnonen <tomas.junnonen@nokia.com>  Thu, 26 Jul 2007 17:51:00 +0300
+
+hildon-input-method-configurator (0.0.11-1) unstable; urgency=low
+
+  * Fixes: NB#61276.
+
+ -- Tomas Junnonen <tomas.junnonen@nokia.com>  Wed, 19 Jul 2007 16:59:00 +0300
+
+hildon-input-method-configurator (0.0.10-1) unstable; urgency=low
+
+  * New release. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed,  4 Jul 2007 11:27:57 +0300
+
+hildon-input-method-configurator (0.0.9-1) unstable; urgency=low
+
+  *  Fixes: NB#59847.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Tue, 12 Jun 2007 15:36:20 +0300
+
+hildon-input-method-configurator (0.0.8-1) unstable; urgency=low
+
+  * Now detects the hardware correctly.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Thu,  7 Jun 2007 14:23:40 +0300
+
+hildon-input-method-configurator (0.0.7-1) unstable; urgency=low
+
+  * Enable virtual IM in all cases until we get proper protos.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Tue,  5 Jun 2007 11:19:39 +0300
+
+hildon-input-method-configurator (0.0.6-1) unstable; urgency=low
+
+  * Removed a constant in -dev package.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon,  4 Jun 2007 20:51:30 +0300
+
+hildon-input-method-configurator (0.0.5-1) unstable; urgency=low
+
+  * Updated -dev package. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Mon,  4 Jun 2007 18:06:24 +0300
+
+hildon-input-method-configurator (0.0.4-1) unstable; urgency=low
+
+  * Added possibility to restore from IT-2007 backups.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Thu, 31 May 2007 14:17:30 +0300
+
+hildon-input-method-configurator (0.0.3-4) unstable; urgency=low
+
+  * Added libgconf2-dev to dependency. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 23 May 2007 13:54:20 +0300
+
+hildon-input-method-configurator (0.0.3-3) unstable; urgency=low
+
+  * Again. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 16 May 2007 17:54:30 +0300
+
+hildon-input-method-configurator (0.0.3-2) unstable; urgency=low
+
+  * Added a helper script. 
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 16 May 2007 17:28:47 +0300
+
+hildon-input-method-configurator (0.0.3-1) unstable; urgency=low
+
+  * New release.
+  * Implemented: NR#167306 
+  * Added workaround for update-sudoers.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed, 16 May 2007 16:33:22 +0300
+
+hildon-input-method-configurator (0.0.2-1) unstable; urgency=low
+
+  * New release.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Tue, 15 May 2007 14:24:12 +0300
+
+hildon-input-method-configurator (0.0.1-1) unstable; urgency=low
+
+  * New package.
+
+ -- Mohammad Anwari <mdamt@maemo.org>  Wed,  9 May 2007 17:14:05 +0300
+
+
