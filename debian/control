@@ -7,7 +7,11 @@ Build-Depends: debhelper (>= 9),
                autoconf,
                automake,
                libtool-bin,
-               libglib2.0-dev
+               libglib2.0-dev,
+               libgconf2-dev,
+               libgtk2.0-dev,
+               libhildon-im-ui-dev
+
 Standards-Version: 3.7.2
 
 Package: hildon-input-method-configurator
