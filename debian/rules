@@ -5,3 +5,7 @@
 
 %:
 	dh $@ --with autoreconf
+
+override_dh_auto_install:
+	dh_auto_install --destdir=debian/tmp
+	dh_installxsession -u 'post 25' -P debian/tmp
