@@ -23,12 +23,9 @@ PKG_PROG_PKG_CONFIG
 #+++++++++++++++
 
 
-AC_SUBST(CFLAGS)
-
 PKG_CHECK_MODULES(GLIB, [gtk+-2.0 gconf-2.0 hildon-input-method-ui-3.0])
 
-AC_SUBST(GLIB_LIBS)
-AC_SUBST(GLIB_CFLAGS)
+PKG_CHECK_MODULES(EXPAT, [expat])
 
 #+++++++++++++++++++
 # Directories setup
