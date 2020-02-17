@@ -1,3 +1,9 @@
+hildon-input-method-configurator (0.1.10-1) unstable; urgency=low
+
+  * Add hildon-im-convert-restored-gconf
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Mon, 17 Feb 2020 17:59:33 +0200
+
 hildon-input-method-configurator (0.1.9-1) unstable; urgency=low
 
   * start using iso-codes-locale-resolver0
