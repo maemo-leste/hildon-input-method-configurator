@@ -18,6 +18,6 @@ Standards-Version: 3.7.2
 
 Package: hildon-input-method-configurator
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, sudo
+Depends: ${shlibs:Depends}, ${misc:Depends}, sudo, iso-codes-locale-resolver0
 Description: Hildon Input method configurator
  This package provides Hildon Input Method configurator.
