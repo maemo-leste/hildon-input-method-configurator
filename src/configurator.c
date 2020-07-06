@@ -91,7 +91,7 @@ get_have_int_kb(const gchar *int_kb_model)
     return FALSE;
 
   /* add more supported, droid4 for example */
-  return !g_ascii_strcasecmp(int_kb_model, "nokiarx51");
+  return !g_ascii_strcasecmp(int_kb_model, "nokiarx51") || !g_ascii_strcasecmp(int_kb_model, "motoroladroid4");
 }
 
 static gboolean
