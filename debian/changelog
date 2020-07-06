@@ -1,3 +1,9 @@
+hildon-input-method-configurator (0.1.12-1) unstable; urgency=medium
+
+  * Call configurator in postinst.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 06 Jul 2020 15:20:06 +0200
+
 hildon-input-method-configurator (0.1.11-1) unstable; urgency=medium
 
   * configurator.c: add droid4 xkb model
