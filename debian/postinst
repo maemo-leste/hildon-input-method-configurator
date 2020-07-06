@@ -1,0 +1,3 @@
+#!/bin/bash
+
+. /etc/profile && /usr/bin/hildon-input-method-configurator
