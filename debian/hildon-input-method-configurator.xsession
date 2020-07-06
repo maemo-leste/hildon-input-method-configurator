@@ -2,7 +2,7 @@
 
 if [ ! -e /etc/hildon-input-method.configured ]
 then
-	sudo /usr/bin/hildon-input-method-configurator
+	sudo -i /usr/bin/hildon-input-method-configurator
 	sudo touch /etc/hildon-input-method.configured
 fi
 
