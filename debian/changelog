@@ -1,3 +1,10 @@
+hildon-input-method-configurator (0.1.11-1) unstable; urgency=medium
+
+  * configurator.c: add droid4 xkb model
+  * Fix up the xsession call.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 06 Jul 2020 14:33:20 +0200
+
 hildon-input-method-configurator (0.1.10-1) unstable; urgency=low
 
   * Add hildon-im-convert-restored-gconf
