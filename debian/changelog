@@ -1,3 +1,9 @@
+hildon-input-method-configurator (0.1.13-1) unstable; urgency=medium
+
+  * *do not * call configurator in postinst.
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Thu, 23 Jan 2025 15:35:34 +0200
+
 hildon-input-method-configurator (0.1.12-1) unstable; urgency=medium
 
   * Call configurator in postinst.
