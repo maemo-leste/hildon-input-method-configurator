@@ -1,3 +1,5 @@
+#include "config.h"
+
 #include <glib-object.h>
 #include <gconf/gconf-client.h>
 
@@ -7,7 +9,7 @@
 #include <string.h>
 #include <stdio.h>
 
-#define SCHEMA_FILE "/etc/gconf/schemas/hildon-input-method-configuration.schema"
+#define SCHEMA_FILE GCONF_SCHEMA_DIR "/hildon-input-method-configuration.schema"
 #define INSTALL_SCHEMA_FILE_CMD "gconftool-2 --makefile-install-rule " SCHEMA_FILE
 
 #define HILDON_IM_GCONF_INT_KB_MODEL HILDON_IM_GCONF_DIR "/int_kb_model"

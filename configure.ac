@@ -31,7 +31,11 @@ PKG_CHECK_MODULES(EXPAT, [expat])
 # Directories setup
 #+++++++++++++++++++
 
+AC_DEFINE([GCONF_SCHEMA_DIR],
+  ["/usr/share/gconf/schemas"],
+  [GConf schemas directory])
+
 AC_OUTPUT([
-Makefile
-src/Makefile
+  Makefile
+  src/Makefile
 ])

@@ -1,3 +1,5 @@
+#include "config.h"
+
 #include <gconf/gconf-client.h>
 #include <expat.h>
 
@@ -9,6 +11,8 @@
 #include <libgen.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+
+#define SCHEMA_FILE GCONF_SCHEMA_DIR "/hildon-input-method-configuration.schema"
 
 typedef enum
 {
@@ -389,7 +393,7 @@ main(int argc, char *argv[])
 
   if (i == sizeof (versions[0]))
   {
-    unlink("/etc/gconf/schemas/hildon-input-method-configuration.schema");
+    unlink(SCHEMA_FILE);
     unlink("/etc/hildon-input-method.configured");
     exit(0);
   }
