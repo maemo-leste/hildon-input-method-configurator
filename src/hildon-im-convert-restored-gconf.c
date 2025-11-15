@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <libgen.h>
+#include <inttypes.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 
@@ -66,14 +67,14 @@ format_string_entry(const char *name, const char *value)
   if (value)
   {
     snprintf(string_buf, sizeof(string_buf),
-             "\t<entry name=\"%s\" mtime=\"%ld\" type=\"string\">\n\t\t<stringvalue>%s</stringvalue>\n\t</entry>\n",
-             name, time(0), value);
+             "\t<entry name=\"%s\" mtime=\"%"PRIdMAX"\" type=\"string\">\n\t\t<stringvalue>%s</stringvalue>\n\t</entry>\n",
+             name, (intmax_t)time(0), value);
   }
   else
   {
     snprintf(string_buf, sizeof(string_buf),
-             "\t<entry name=\"%s\" mtime=\"%ld\" type=\"string\">\n\t\t<stringvalue/>\n\t</entry>\n",
-             name, time(0));
+             "\t<entry name=\"%s\" mtime=\"%"PRIdMAX"\" type=\"string\">\n\t\t<stringvalue/>\n\t</entry>\n",
+             name, (intmax_t)time(0));
   }
 
   return string_buf;
@@ -85,8 +86,8 @@ format_bool_entry(const char *name, gboolean val)
   static char bool_buf[1024];
 
   snprintf(bool_buf, sizeof(bool_buf),
-           "\t<entry name=\"%s\" mtime=\"%ld\" type=\"bool\" value=\"%s\"></entry>\n",
-           name, time(0), val ? "true" : "false");
+           "\t<entry name=\"%s\" mtime=\"%"PRIdMAX"\" type=\"bool\" value=\"%s\"></entry>\n",
+           name, (intmax_t)time(0), val ? "true" : "false");
 
   return bool_buf;
 }
@@ -97,8 +98,8 @@ format_int_entry(const char *name, int val)
   static char int_buf[1024];
 
   snprintf(int_buf, sizeof(int_buf),
-          "\t<entry name=\"%s\" mtime=\"%ld\" type=\"int\" value=\"%d\"></entry>\n",
-          name, time(0), val);
+          "\t<entry name=\"%s\" mtime=\"%"PRIdMAX"\" type=\"int\" value=\"%d\"></entry>\n",
+          name, (intmax_t)time(0), val);
 
   return int_buf;
 }
